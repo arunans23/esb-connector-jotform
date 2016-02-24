@@ -50,8 +50,8 @@ Steps to follow in setting integration test.
  4. Compress modified ESB as wso2esb-4.9.0.zip and copy that zip file in to location "<JOTFORM_HOME>/repository/".
 
  5. Create a Jotform account and login.
-	i) 	Go to your user account api section by navigating to the URL "http://www.jotform.com/myaccount/api".
-	ii)	Click "Create New Key" to generate a api key. Set the permission as "Full Access" for the API key.
+	i) Go to your user account api section by navigating to the URL "http://www.jotform.com/myaccount/api".
+	ii)Click "Create New Key" to generate a api key. Set the permission as "Full Access" for the API key.
 	
  6. Prerequisites for Jotform Connector Integration Testing.
 
