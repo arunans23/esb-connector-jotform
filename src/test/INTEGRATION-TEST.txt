@@ -55,12 +55,12 @@ Steps to follow in setting integration test.
 	
  6. Prerequisites for Jotform Connector Integration Testing.
 
-	i) 	Navigate to the URL "http://www.jotform.com/myforms", and create a new form using the form template "Message Contact Form". 
+	i)  Navigate to the URL "http://www.jotform.com/myforms", and create a new form using the form template "Message Contact Form". 
 	ii) Add a submission to the form created in step i) as follows,
 		1) Provide valid values for "First Name" and "Last Name" in "Your Name" field.
 		   Provide valid email address for "Your Email Address" field and add the submission.
 		2) Go to https://www.jotform.com/myforms/, select the form added in step 7)i, go to "More" click on "View Submissions" and mark the previously added submission as flagged.
-	iii)  Repeat the step ii) to add another submission to the same form.
+	iii) Repeat the step ii) to add another submission to the same form.
 	 
  7. Update the Jotform properties file at location "<JOTFORM_HOME>/src/test/resources/artifacts/ESB/connector/config" as below.
 	
