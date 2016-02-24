@@ -23,7 +23,7 @@ Steps to follow in setting integration test.
  3. Follow the below mentioned steps to add valid certificate to access Jotform API over https.
 
     i)   Extract the certificate from 'https://api.jotform.com'.
-			NOTE : Make sure to use an API method endpoint URL to obtain the certificate (e.g.: https://api.jotform.com/user)
+	 NOTE : Make sure to use an API method endpoint URL to obtain the certificate (e.g.: https://api.jotform.com/user)
     
     ii)  Place the downloaded certificate into "<ESB_HOME>/repository/resources/security/" and 
          "<JOTFORM_HOME>/src/test/resources/keystores/products" folders.
@@ -64,10 +64,10 @@ Steps to follow in setting integration test.
 	 
  7. Update the Jotform properties file at location "<JOTFORM_HOME>/src/test/resources/artifacts/ESB/connector/config" as below.
 	
-	i)      apiUrl 				- 	The API URL which the service calls are made. (e.g. https://api.jotform.com).
+	i)      apiUrl 				-   The API URL which the service calls are made. (e.g. https://api.jotform.com).
 	ii) 	apiKey				-   Use the API key obtained under step 7 ii).
 	iii)	formId			        -   Id of the form which is created under step 7 i).
-	iv)	submissionId			-	Id of the submission which is submitted in step 7 ii).
+	iv)	submissionId			-   Id of the submission which is submitted in step 7 ii).
 	v)	submissionNewUpdateMandatory	-   Indicates whether the submission is read. provide 1 as the initial value.
 	vi)	submissionIdOptional		-   Id of the submission which is submitted in step 7 iii).
 	vii)	submissionNewUpdateOptional	-   Indicates whether the submission is read. Provide 1 as the initial value.
