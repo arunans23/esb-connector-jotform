@@ -28,6 +28,11 @@
         <property name="uri.var.submissionNew" expression="$func:submissionNew"/>
         <property name="uri.var.submissionFlag" expression="$func:submissionFlag"/>
         <property name="uri.var.submissionAnswers" expression="$func:submissionAnswers"/>
+        <payloadFactory media-type="json">
+            <format>
+                {}
+            </format>
+        </payloadFactory>
         <script language="js">
             <![CDATA[
             // Generate payload with optional parameters

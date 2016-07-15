@@ -1,5 +1,6 @@
 {
    "apiUrl" : "%s(apiUrl)",
    "apiKey" : "%s(apiKey)",
-   "submissionId" : "%s(submissionId)"
+   "submissionId" : "%s(invalidSubmissionId)",
+   "submissionNew": "%s(submissionNewUpdateOptional)"
 }
