@@ -1,0 +1,74 @@
+{
+  "id": "http:\/\/wso2jsonschema.org",
+  "title": "root",
+  "$schema": "http:\/\/wso2.org\/json-schema\/wso2-data-mapper-v5.0.0\/schema#",
+  "properties": {
+    "responseCode": {
+      "id": "http:\/\/wso2jsonschema.org\/responseCode",
+      "type": "number"
+    },
+    "message": {
+      "id": "http:\/\/wso2jsonschema.org\/message",
+      "type": "string"
+    },
+    "content": {
+      "id": "http:\/\/wso2jsonschema.org\/content",
+      "type": "object",
+      "properties": {
+        "id": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/id",
+          "type": "string"
+        },
+        "username": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/username",
+          "type": "string"
+        },
+        "title": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/title",
+          "type": "string"
+        },
+        "height": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/height",
+          "type": "string"
+        },
+        "status": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/status",
+          "type": "string"
+        },
+        "created_at": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/created_at",
+          "type": "string"
+        },
+        "updated_at": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/updated_at",
+          "type": "string"
+        },
+        "new": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/new",
+          "type": "string"
+        },
+        "count": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/count",
+          "type": "string"
+        },
+        "last_submission": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/last_submission",
+          "type": "string"
+        },
+        "url": {
+          "id": "http:\/\/wso2jsonschema.org\/content\/url",
+          "type": "string"
+        }
+      }
+    },
+    "limit-left": {
+      "id": "http:\/\/wso2jsonschema.org\/limit-left",
+      "type": "number"
+    },
+    "duration": {
+      "id": "http:\/\/wso2jsonschema.org\/duration",
+      "type": "string"
+    }
+  },
+  "type": "object"
+}
