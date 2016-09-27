@@ -46,7 +46,7 @@ public class JotformConnectorIntegrationTest extends ConnectorIntegrationTestBas
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
 
-        init("jotform-connector-1.0.2");
+        init("jotform-connector-1.0.3-SNAPSHOT");
 
         esbRequestHeadersMap = new HashMap<String, String>();
         apiRequestHeadersMap = new HashMap<String, String>();
