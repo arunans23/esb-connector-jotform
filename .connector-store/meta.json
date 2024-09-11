@@ -4,7 +4,7 @@
     "category": "Productivity Tools",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/JotForm+Connector",
     "description": "The JotForm connector allows you to access the JotForm REST API through the WSO2 ESB. JotForm is the first web based WYSIWYG form builder.It can create forms, integrate them to the site and receive responses by e-mail.",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
